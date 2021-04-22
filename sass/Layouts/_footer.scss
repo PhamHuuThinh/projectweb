@@ -6,6 +6,10 @@
     padding-bottom: 20px;
     color: #949494;
 
+    img {
+        vertical-align: middle;
+    }
+
     .row {
 
         &::after{
@@ -97,9 +101,39 @@
 
     }
 
+    .vngIcon {
 
+        width: 80px;
+        height: auto;
+
+    }
+
+    .imgBoCo {
+        width: 130px;
+        float: right;
+    }
+
+    .imgFooter {
+
+        text-align: center;
+        padding: 0;
+        
+    }
 
 }
+
+@media (max-width: 992px) {
+
+    #footer .vngIcon {
+
+        display: block;
+        margin: auto;
+        margin-bottom: 20px;
+
+    }
+
+}
+
 
 
 
