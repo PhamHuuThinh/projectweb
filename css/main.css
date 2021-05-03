@@ -54,11 +54,6 @@ html, body {
   transform: translateY(-50%);
 }
 
-#navbarHeader .right div {
-  display: table-cell;
-  vertical-align: middle;
-}
-
 #navbarHeader #account {
   position: relative;
   padding-right: 11px;
@@ -351,6 +346,10 @@ html, body {
   float: none;
   margin: auto;
   clear: both;
+}
+
+.session-main {
+  padding-bottom: 40px;
 }
 
 #newsBlock {
