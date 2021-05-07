@@ -1,58 +1,35 @@
-// variable color
-$color-black: #000 ;// default
-$color-white-0: #fff; //default
-$color-blue:#00adef;
-$color-blue-1: #0088c6;
-$color-blue-2: #4dc6f4;
-$color-gray-0: #999;
-$color-gray-1: #ccc;
-$color-bg-black: #141414;
-$color-white-1: #ececec;
-$color-black-1: #333;
-$color-trans:transparent;
+$color-text-1: #333;
+$color-text-2: #9b9b9b;
+$color-text-3: #fa5238;
+$color-text-4:#108f3e;
+$color-text-5:#8bc541;
+$color-text-6:#949494;
+$color-white: #fff;
+$color-black: #000;
+$color-bg-1: rgba(255,255,255,.95);
+$color-bg-2: #4a4a4a;
+$color-bg-3: rgba(12,27,54,.8);
+$color-bg-4: #fb4226;
+$color-bg-5: #00ac4d;
+$color-bg-6:rgba(246,246,246,.5);
+$color-bg-7:#222;
+$color-bg-8:#60c5ef;
+$color-border-1: #1f2e46;
+$color-border-2: rgba(238,238,238,.88);
 
-// variable font-size
-$fs-0: 16px; //default
-$fs-1: 14px;
-$fs-2: 22px;
-$fs-3: 40px;
-$fs-4: 28px;
-$fs-5: 30px;
+// Linear 
+$color-linear-1: linear-gradient(to left,#fb4226,#ce3017 100%);
 
-//variable margin
-$mg-0: 2px;
-$mg-1: 18px;
-$mg-2: 25px;
-$mg-3: 30px;
-$mg-4: 14px;
-
-//variable border-radius
-$border-radius: 2px;
-
-//variable padding
-$pd-0: 6px; //default
-$pd-1: 7px;
-$pd-2: 20px;
-$pd-3: 15px;
-$pd-5:50px;
+// font size
+$fs-14: 14px;
+$fs-13: 13px;
+$fs-12: 12px;
+$fs-16: 16px;
+$fs-18: 18px;
+$fs-32: 32px;
+$fs-20: 20px;
 
 
 
-//variable line-height
-$line-height-0: 1.5; //default
-
-//variable font-weight
-$fw-normal: normal;
-$fw-light: 400;
-$fw-bold-0: 600;
-$fw-bold-1: 700;
-$fw-bold: bold;
-
-
-//break points
-$breakpoints:(
-    'extra-large': 1200px,
-    'large' : 992px,
-    'medium' : 768px,
-    'small' : 576px,
-)
+// box-shadow
+$box-sha-1: 0 0 15px rgba(0,0,0,.3);
